@@ -1,0 +1,229 @@
+[2024-06-05T22:23:48.932+0800] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-05T22:23:48.944+0800] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: centaline_scraping_dag.centaline_scraping_rent_data manual__2024-06-05T01:34:32.894504+00:00 [queued]>
+[2024-06-05T22:23:48.950+0800] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: centaline_scraping_dag.centaline_scraping_rent_data manual__2024-06-05T01:34:32.894504+00:00 [queued]>
+[2024-06-05T22:23:48.951+0800] {taskinstance.py:2306} INFO - Starting attempt 3 of 3
+[2024-06-05T22:23:48.968+0800] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): centaline_scraping_rent_data> on 2024-06-05 01:34:32.894504+00:00
+[2024-06-05T22:23:48.970+0800] {standard_task_runner.py:63} INFO - Started process 18508 to run task
+[2024-06-05T22:23:48.972+0800] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'centaline_scraping_dag', 'centaline_scraping_rent_data', 'manual__2024-06-05T01:34:32.894504+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/cenraline_fc.py', '--cfg-path', '/tmp/tmpfpr3cnog']
+[2024-06-05T22:23:48.973+0800] {standard_task_runner.py:91} INFO - Job 14: Subtask centaline_scraping_rent_data
+[2024-06-05T22:23:49.019+0800] {task_command.py:426} INFO - Running <TaskInstance: centaline_scraping_dag.centaline_scraping_rent_data manual__2024-06-05T01:34:32.894504+00:00 [running]> on host LAPTOP-3QN476HM.
+[2024-06-05T22:23:49.070+0800] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Ryanng' AIRFLOW_CTX_DAG_ID='centaline_scraping_dag' AIRFLOW_CTX_TASK_ID='centaline_scraping_rent_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-05T01:34:32.894504+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-05T01:34:32.894504+00:00'
+[2024-06-05T22:23:49.070+0800] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-05T22:23:49.754+0800] {logging_mixin.py:188} INFO - Fetching offset: 0
+[2024-06-05T22:23:51.196+0800] {logging_mixin.py:188} INFO - Fetching offset: 24
+[2024-06-05T22:23:51.968+0800] {logging_mixin.py:188} INFO - Fetching offset: 48
+[2024-06-05T22:23:52.972+0800] {logging_mixin.py:188} INFO - Fetching offset: 72
+[2024-06-05T22:23:53.873+0800] {logging_mixin.py:188} INFO - Fetching offset: 96
+[2024-06-05T22:23:55.128+0800] {logging_mixin.py:188} INFO - Fetching offset: 120
+[2024-06-05T22:23:56.000+0800] {logging_mixin.py:188} INFO - Fetching offset: 144
+[2024-06-05T22:23:57.054+0800] {logging_mixin.py:188} INFO - Fetching offset: 168
+[2024-06-05T22:23:58.711+0800] {logging_mixin.py:188} INFO - Fetching offset: 192
+[2024-06-05T22:23:59.420+0800] {logging_mixin.py:188} INFO - Fetching offset: 216
+[2024-06-05T22:24:00.922+0800] {logging_mixin.py:188} INFO - Fetching offset: 240
+[2024-06-05T22:24:02.038+0800] {logging_mixin.py:188} INFO - Fetching offset: 264
+[2024-06-05T22:24:03.397+0800] {logging_mixin.py:188} INFO - Fetching offset: 288
+[2024-06-05T22:24:04.256+0800] {logging_mixin.py:188} INFO - Fetching offset: 312
+[2024-06-05T22:24:04.995+0800] {logging_mixin.py:188} INFO - Fetching offset: 336
+[2024-06-05T22:24:06.470+0800] {logging_mixin.py:188} INFO - Fetching offset: 360
+[2024-06-05T22:24:07.331+0800] {logging_mixin.py:188} INFO - Fetching offset: 384
+[2024-06-05T22:24:08.302+0800] {logging_mixin.py:188} INFO - Fetching offset: 408
+[2024-06-05T22:24:09.965+0800] {logging_mixin.py:188} INFO - Fetching offset: 432
+[2024-06-05T22:24:11.183+0800] {logging_mixin.py:188} INFO - Fetching offset: 456
+[2024-06-05T22:24:12.684+0800] {logging_mixin.py:188} INFO - Fetching offset: 480
+[2024-06-05T22:24:14.229+0800] {logging_mixin.py:188} INFO - Fetching offset: 504
+[2024-06-05T22:24:15.530+0800] {logging_mixin.py:188} INFO - Fetching offset: 528
+[2024-06-05T22:24:16.634+0800] {logging_mixin.py:188} INFO - Fetching offset: 552
+[2024-06-05T22:24:18.101+0800] {logging_mixin.py:188} INFO - Fetching offset: 576
+[2024-06-05T22:24:19.327+0800] {logging_mixin.py:188} INFO - Fetching offset: 600
+[2024-06-05T22:24:20.972+0800] {logging_mixin.py:188} INFO - Fetching offset: 624
+[2024-06-05T22:24:22.324+0800] {logging_mixin.py:188} INFO - Fetching offset: 648
+[2024-06-05T22:24:23.171+0800] {logging_mixin.py:188} INFO - Fetching offset: 672
+[2024-06-05T22:24:24.392+0800] {logging_mixin.py:188} INFO - Fetching offset: 696
+[2024-06-05T22:24:25.647+0800] {logging_mixin.py:188} INFO - Fetching offset: 720
+[2024-06-05T22:24:26.435+0800] {logging_mixin.py:188} INFO - Fetching offset: 744
+[2024-06-05T22:24:27.923+0800] {logging_mixin.py:188} INFO - Fetching offset: 768
+[2024-06-05T22:24:28.973+0800] {logging_mixin.py:188} INFO - Fetching offset: 792
+[2024-06-05T22:24:30.392+0800] {logging_mixin.py:188} INFO - Fetching offset: 816
+[2024-06-05T22:24:31.866+0800] {logging_mixin.py:188} INFO - Fetching offset: 840
+[2024-06-05T22:24:32.862+0800] {logging_mixin.py:188} INFO - Fetching offset: 864
+[2024-06-05T22:24:34.330+0800] {logging_mixin.py:188} INFO - Fetching offset: 888
+[2024-06-05T22:24:35.701+0800] {logging_mixin.py:188} INFO - Fetching offset: 912
+[2024-06-05T22:24:36.746+0800] {logging_mixin.py:188} INFO - Fetching offset: 936
+[2024-06-05T22:24:37.798+0800] {logging_mixin.py:188} INFO - Fetching offset: 960
+[2024-06-05T22:24:38.510+0800] {logging_mixin.py:188} INFO - Fetching offset: 984
+[2024-06-05T22:24:40.115+0800] {logging_mixin.py:188} INFO - Fetching offset: 1008
+[2024-06-05T22:24:40.813+0800] {logging_mixin.py:188} INFO - Fetching offset: 1032
+[2024-06-05T22:24:42.493+0800] {logging_mixin.py:188} INFO - Fetching offset: 1056
+[2024-06-05T22:24:43.415+0800] {logging_mixin.py:188} INFO - Fetching offset: 1080
+[2024-06-05T22:24:44.310+0800] {logging_mixin.py:188} INFO - Fetching offset: 1104
+[2024-06-05T22:24:45.591+0800] {logging_mixin.py:188} INFO - Fetching offset: 1128
+[2024-06-05T22:24:46.827+0800] {logging_mixin.py:188} INFO - Fetching offset: 1152
+[2024-06-05T22:24:47.617+0800] {logging_mixin.py:188} INFO - Fetching offset: 1176
+[2024-06-05T22:24:48.416+0800] {logging_mixin.py:188} INFO - Fetching offset: 1200
+[2024-06-05T22:24:49.599+0800] {logging_mixin.py:188} INFO - Fetching offset: 1224
+[2024-06-05T22:24:50.416+0800] {logging_mixin.py:188} INFO - Fetching offset: 1248
+[2024-06-05T22:24:51.757+0800] {logging_mixin.py:188} INFO - Fetching offset: 1272
+[2024-06-05T22:24:52.611+0800] {logging_mixin.py:188} INFO - Fetching offset: 1296
+[2024-06-05T22:24:53.870+0800] {logging_mixin.py:188} INFO - Fetching offset: 1320
+[2024-06-05T22:24:54.893+0800] {logging_mixin.py:188} INFO - Fetching offset: 1344
+[2024-06-05T22:24:55.879+0800] {logging_mixin.py:188} INFO - Fetching offset: 1368
+[2024-06-05T22:24:57.571+0800] {logging_mixin.py:188} INFO - Fetching offset: 1392
+[2024-06-05T22:24:59.313+0800] {logging_mixin.py:188} INFO - Fetching offset: 1416
+[2024-06-05T22:25:00.453+0800] {logging_mixin.py:188} INFO - Fetching offset: 1440
+[2024-06-05T22:25:01.559+0800] {logging_mixin.py:188} INFO - Fetching offset: 1464
+[2024-06-05T22:25:02.319+0800] {logging_mixin.py:188} INFO - Fetching offset: 1488
+[2024-06-05T22:25:03.286+0800] {logging_mixin.py:188} INFO - Fetching offset: 1512
+[2024-06-05T22:25:04.469+0800] {logging_mixin.py:188} INFO - Fetching offset: 1536
+[2024-06-05T22:25:05.342+0800] {logging_mixin.py:188} INFO - Fetching offset: 1560
+[2024-06-05T22:25:06.268+0800] {logging_mixin.py:188} INFO - Fetching offset: 1584
+[2024-06-05T22:25:07.940+0800] {logging_mixin.py:188} INFO - Fetching offset: 1608
+[2024-06-05T22:25:09.030+0800] {logging_mixin.py:188} INFO - Fetching offset: 1632
+[2024-06-05T22:25:09.762+0800] {logging_mixin.py:188} INFO - Fetching offset: 1656
+[2024-06-05T22:25:11.041+0800] {logging_mixin.py:188} INFO - Fetching offset: 1680
+[2024-06-05T22:25:12.256+0800] {logging_mixin.py:188} INFO - Fetching offset: 1704
+[2024-06-05T22:25:13.968+0800] {logging_mixin.py:188} INFO - Fetching offset: 1728
+[2024-06-05T22:25:14.976+0800] {logging_mixin.py:188} INFO - Fetching offset: 1752
+[2024-06-05T22:25:15.939+0800] {logging_mixin.py:188} INFO - Fetching offset: 1776
+[2024-06-05T22:25:17.470+0800] {logging_mixin.py:188} INFO - Fetching offset: 1800
+[2024-06-05T22:25:18.834+0800] {logging_mixin.py:188} INFO - Fetching offset: 1824
+[2024-06-05T22:25:20.062+0800] {logging_mixin.py:188} INFO - Fetching offset: 1848
+[2024-06-05T22:25:21.108+0800] {logging_mixin.py:188} INFO - Fetching offset: 1872
+[2024-06-05T22:25:22.561+0800] {logging_mixin.py:188} INFO - Fetching offset: 1896
+[2024-06-05T22:25:24.194+0800] {logging_mixin.py:188} INFO - Fetching offset: 1920
+[2024-06-05T22:25:25.285+0800] {logging_mixin.py:188} INFO - Fetching offset: 1944
+[2024-06-05T22:25:26.220+0800] {logging_mixin.py:188} INFO - Fetching offset: 1968
+[2024-06-05T22:25:27.934+0800] {logging_mixin.py:188} INFO - Fetching offset: 1992
+[2024-06-05T22:25:28.864+0800] {logging_mixin.py:188} INFO - Fetching offset: 2016
+[2024-06-05T22:25:30.580+0800] {logging_mixin.py:188} INFO - Fetching offset: 2040
+[2024-06-05T22:25:32.267+0800] {logging_mixin.py:188} INFO - Fetching offset: 2064
+[2024-06-05T22:25:33.901+0800] {logging_mixin.py:188} INFO - Fetching offset: 2088
+[2024-06-05T22:25:35.040+0800] {logging_mixin.py:188} INFO - Fetching offset: 2112
+[2024-06-05T22:25:35.852+0800] {logging_mixin.py:188} INFO - Fetching offset: 2136
+[2024-06-05T22:25:36.854+0800] {logging_mixin.py:188} INFO - Fetching offset: 2160
+[2024-06-05T22:25:38.300+0800] {logging_mixin.py:188} INFO - Fetching offset: 2184
+[2024-06-05T22:25:39.464+0800] {logging_mixin.py:188} INFO - Fetching offset: 2208
+[2024-06-05T22:25:40.572+0800] {logging_mixin.py:188} INFO - Fetching offset: 2232
+[2024-06-05T22:25:42.008+0800] {logging_mixin.py:188} INFO - Fetching offset: 2256
+[2024-06-05T22:25:43.024+0800] {logging_mixin.py:188} INFO - Fetching offset: 2280
+[2024-06-05T22:25:44.125+0800] {logging_mixin.py:188} INFO - Fetching offset: 2304
+[2024-06-05T22:25:45.577+0800] {logging_mixin.py:188} INFO - Fetching offset: 2328
+[2024-06-05T22:25:47.303+0800] {logging_mixin.py:188} INFO - Fetching offset: 2352
+[2024-06-05T22:25:48.841+0800] {logging_mixin.py:188} INFO - Fetching offset: 2376
+[2024-06-05T22:25:49.615+0800] {logging_mixin.py:188} INFO - Fetching offset: 2400
+[2024-06-05T22:25:51.019+0800] {logging_mixin.py:188} INFO - Fetching offset: 2424
+[2024-06-05T22:25:53.925+0800] {logging_mixin.py:188} INFO - Fetching offset: 2448
+[2024-06-05T22:25:54.639+0800] {logging_mixin.py:188} INFO - Fetching offset: 2472
+[2024-06-05T22:25:55.371+0800] {logging_mixin.py:188} INFO - Fetching offset: 2496
+[2024-06-05T22:25:57.009+0800] {logging_mixin.py:188} INFO - Fetching offset: 2520
+[2024-06-05T22:25:57.938+0800] {logging_mixin.py:188} INFO - Fetching offset: 2544
+[2024-06-05T22:25:59.131+0800] {logging_mixin.py:188} INFO - Fetching offset: 2568
+[2024-06-05T22:25:59.973+0800] {logging_mixin.py:188} INFO - Fetching offset: 2592
+[2024-06-05T22:26:00.893+0800] {logging_mixin.py:188} INFO - Fetching offset: 2616
+[2024-06-05T22:26:01.600+0800] {logging_mixin.py:188} INFO - Fetching offset: 2640
+[2024-06-05T22:26:02.834+0800] {logging_mixin.py:188} INFO - Fetching offset: 2664
+[2024-06-05T22:26:03.899+0800] {logging_mixin.py:188} INFO - Fetching offset: 2688
+[2024-06-05T22:26:04.929+0800] {logging_mixin.py:188} INFO - Fetching offset: 2712
+[2024-06-05T22:26:05.845+0800] {logging_mixin.py:188} INFO - Fetching offset: 2736
+[2024-06-05T22:26:06.811+0800] {logging_mixin.py:188} INFO - Fetching offset: 2760
+[2024-06-05T22:26:07.545+0800] {logging_mixin.py:188} INFO - Fetching offset: 2784
+[2024-06-05T22:26:08.854+0800] {logging_mixin.py:188} INFO - Fetching offset: 2808
+[2024-06-05T22:26:10.092+0800] {logging_mixin.py:188} INFO - Fetching offset: 2832
+[2024-06-05T22:26:11.555+0800] {logging_mixin.py:188} INFO - Fetching offset: 2856
+[2024-06-05T22:26:12.468+0800] {logging_mixin.py:188} INFO - Fetching offset: 2880
+[2024-06-05T22:26:14.083+0800] {logging_mixin.py:188} INFO - Fetching offset: 2904
+[2024-06-05T22:26:15.062+0800] {logging_mixin.py:188} INFO - Fetching offset: 2928
+[2024-06-05T22:26:15.811+0800] {logging_mixin.py:188} INFO - Fetching offset: 2952
+[2024-06-05T22:26:17.334+0800] {logging_mixin.py:188} INFO - Fetching offset: 2976
+[2024-06-05T22:26:18.112+0800] {logging_mixin.py:188} INFO - Fetching offset: 3000
+[2024-06-05T22:26:19.731+0800] {logging_mixin.py:188} INFO - Fetching offset: 3024
+[2024-06-05T22:26:21.049+0800] {logging_mixin.py:188} INFO - Fetching offset: 3048
+[2024-06-05T22:26:21.998+0800] {logging_mixin.py:188} INFO - Fetching offset: 3072
+[2024-06-05T22:26:22.791+0800] {logging_mixin.py:188} INFO - Fetching offset: 3096
+[2024-06-05T22:26:24.144+0800] {logging_mixin.py:188} INFO - Fetching offset: 3120
+[2024-06-05T22:26:25.302+0800] {logging_mixin.py:188} INFO - Fetching offset: 3144
+[2024-06-05T22:26:26.835+0800] {logging_mixin.py:188} INFO - Fetching offset: 3168
+[2024-06-05T22:26:28.278+0800] {logging_mixin.py:188} INFO - Fetching offset: 3192
+[2024-06-05T22:26:29.976+0800] {logging_mixin.py:188} INFO - Fetching offset: 3216
+[2024-06-05T22:26:30.762+0800] {logging_mixin.py:188} INFO - Fetching offset: 3240
+[2024-06-05T22:26:32.204+0800] {logging_mixin.py:188} INFO - Fetching offset: 3264
+[2024-06-05T22:26:33.055+0800] {logging_mixin.py:188} INFO - Fetching offset: 3288
+[2024-06-05T22:26:34.382+0800] {logging_mixin.py:188} INFO - Fetching offset: 3312
+[2024-06-05T22:26:35.531+0800] {logging_mixin.py:188} INFO - Fetching offset: 3336
+[2024-06-05T22:26:37.002+0800] {logging_mixin.py:188} INFO - Fetching offset: 3360
+[2024-06-05T22:26:38.587+0800] {logging_mixin.py:188} INFO - Fetching offset: 3384
+[2024-06-05T22:26:40.072+0800] {logging_mixin.py:188} INFO - Fetching offset: 3408
+[2024-06-05T22:26:41.694+0800] {logging_mixin.py:188} INFO - Fetching offset: 3432
+[2024-06-05T22:26:43.186+0800] {logging_mixin.py:188} INFO - Fetching offset: 3456
+[2024-06-05T22:26:44.133+0800] {logging_mixin.py:188} INFO - Fetching offset: 3480
+[2024-06-05T22:26:45.809+0800] {logging_mixin.py:188} INFO - Fetching offset: 3504
+[2024-06-05T22:26:46.992+0800] {logging_mixin.py:188} INFO - Fetching offset: 3528
+[2024-06-05T22:26:47.740+0800] {logging_mixin.py:188} INFO - Fetching offset: 3552
+[2024-06-05T22:26:48.534+0800] {logging_mixin.py:188} INFO - Fetching offset: 3576
+[2024-06-05T22:26:49.836+0800] {logging_mixin.py:188} INFO - Fetching offset: 3600
+[2024-06-05T22:26:51.131+0800] {logging_mixin.py:188} INFO - Fetching offset: 3624
+[2024-06-05T22:26:52.125+0800] {logging_mixin.py:188} INFO - Fetching offset: 3648
+[2024-06-05T22:26:53.176+0800] {logging_mixin.py:188} INFO - Fetching offset: 3672
+[2024-06-05T22:26:54.865+0800] {logging_mixin.py:188} INFO - Fetching offset: 3696
+[2024-06-05T22:26:56.301+0800] {logging_mixin.py:188} INFO - Fetching offset: 3720
+[2024-06-05T22:26:57.167+0800] {logging_mixin.py:188} INFO - Fetching offset: 3744
+[2024-06-05T22:26:58.276+0800] {logging_mixin.py:188} INFO - Fetching offset: 3768
+[2024-06-05T22:26:59.204+0800] {logging_mixin.py:188} INFO - Fetching offset: 3792
+[2024-06-05T22:27:00.074+0800] {logging_mixin.py:188} INFO - Fetching offset: 3816
+[2024-06-05T22:27:00.870+0800] {logging_mixin.py:188} INFO - Fetching offset: 3840
+[2024-06-05T22:27:02.521+0800] {logging_mixin.py:188} INFO - Fetching offset: 3864
+[2024-06-05T22:27:03.354+0800] {logging_mixin.py:188} INFO - Fetching offset: 3888
+[2024-06-05T22:27:04.947+0800] {logging_mixin.py:188} INFO - Fetching offset: 3912
+[2024-06-05T22:27:05.989+0800] {logging_mixin.py:188} INFO - Fetching offset: 3936
+[2024-06-05T22:27:06.935+0800] {logging_mixin.py:188} INFO - Fetching offset: 3960
+[2024-06-05T22:27:08.288+0800] {logging_mixin.py:188} INFO - Fetching offset: 3984
+[2024-06-05T22:27:09.826+0800] {logging_mixin.py:188} INFO - Fetching offset: 4008
+[2024-06-05T22:27:10.630+0800] {logging_mixin.py:188} INFO - Fetching offset: 4032
+[2024-06-05T22:27:11.763+0800] {logging_mixin.py:188} INFO - Fetching offset: 4056
+[2024-06-05T22:27:13.497+0800] {logging_mixin.py:188} INFO - Fetching offset: 4080
+[2024-06-05T22:27:14.430+0800] {logging_mixin.py:188} INFO - Fetching offset: 4104
+[2024-06-05T22:27:15.433+0800] {logging_mixin.py:188} INFO - Fetching offset: 4128
+[2024-06-05T22:27:17.072+0800] {logging_mixin.py:188} INFO - Fetching offset: 4152
+[2024-06-05T22:27:18.559+0800] {logging_mixin.py:188} INFO - Fetching offset: 4176
+[2024-06-05T22:27:19.718+0800] {logging_mixin.py:188} INFO - Fetching offset: 4200
+[2024-06-05T22:27:20.962+0800] {logging_mixin.py:188} INFO - Fetching offset: 4224
+[2024-06-05T22:27:22.646+0800] {logging_mixin.py:188} INFO - Fetching offset: 4248
+[2024-06-05T22:27:23.580+0800] {logging_mixin.py:188} INFO - Fetching offset: 4272
+[2024-06-05T22:27:24.776+0800] {logging_mixin.py:188} INFO - Fetching offset: 4296
+[2024-06-05T22:27:25.993+0800] {logging_mixin.py:188} INFO - Fetching offset: 4320
+[2024-06-05T22:27:26.998+0800] {logging_mixin.py:188} INFO - Fetching offset: 4344
+[2024-06-05T22:27:27.790+0800] {logging_mixin.py:188} INFO - Fetching offset: 4368
+[2024-06-05T22:27:29.095+0800] {logging_mixin.py:188} INFO - Fetching offset: 4392
+[2024-06-05T22:27:30.079+0800] {logging_mixin.py:188} INFO - Fetching offset: 4416
+[2024-06-05T22:27:30.982+0800] {logging_mixin.py:188} INFO - Fetching offset: 4440
+[2024-06-05T22:27:31.765+0800] {logging_mixin.py:188} INFO - Fetching offset: 4464
+[2024-06-05T22:27:33.151+0800] {logging_mixin.py:188} INFO - Fetching offset: 4488
+[2024-06-05T22:27:34.776+0800] {logging_mixin.py:188} INFO - Fetching offset: 4512
+[2024-06-05T22:27:35.954+0800] {logging_mixin.py:188} INFO - Fetching offset: 4536
+[2024-06-05T22:27:36.139+0800] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-05T22:27:36.139+0800] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ryanng/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ryanng/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/ryanng/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/ryanng/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/ryanng/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/mnt/c/Users/user/Desktop/new_airflow/dags/centaline_scraping.py", line 107, in centaline_scraping_rent_data
+    engine = create_engine('postgresql://postgres:1234@localhost:5432/centaline_pj')
+  File "<string>", line 2, in create_engine
+  File "/home/ryanng/.local/lib/python3.10/site-packages/sqlalchemy/util/deprecations.py", line 375, in warned
+    return fn(*args, **kwargs)
+  File "/home/ryanng/.local/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 544, in create_engine
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/ryanng/.local/lib/python3.10/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 811, in dbapi
+    import psycopg2
+ModuleNotFoundError: No module named 'psycopg2'
+[2024-06-05T22:27:36.151+0800] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=centaline_scraping_dag, task_id=centaline_scraping_rent_data, run_id=manual__2024-06-05T01:34:32.894504+00:00, execution_date=20240605T013432, start_date=20240605T142348, end_date=20240605T142736
+[2024-06-05T22:27:36.168+0800] {standard_task_runner.py:110} ERROR - Failed to execute job 14 for task centaline_scraping_rent_data (No module named 'psycopg2'; 18508)
+[2024-06-05T22:27:36.184+0800] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-05T22:27:36.200+0800] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-05T22:27:36.212+0800] {local_task_job_runner.py:222} INFO - ::endgroup::

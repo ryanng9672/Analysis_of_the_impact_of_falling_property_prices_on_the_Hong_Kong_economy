@@ -1,0 +1,231 @@
+[2024-06-05T09:34:14.326+0800] {processor.py:161} INFO - Started process (PID=5405) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:14.327+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T09:34:14.329+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:14.329+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:14.882+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:14.988+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:14.988+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T09:34:15.015+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:15.015+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T09:34:15.118+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.794 seconds
+[2024-06-05T09:34:45.383+0800] {processor.py:161} INFO - Started process (PID=5565) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:45.384+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T09:34:45.385+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:45.385+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:45.622+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:34:45.644+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:45.644+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T09:34:45.668+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:34:45.668+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T09:34:45.703+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.324 seconds
+[2024-06-05T09:35:16.881+0800] {processor.py:161} INFO - Started process (PID=5709) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:35:16.882+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T09:35:16.883+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:35:16.883+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:35:17.135+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T09:35:17.167+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:35:17.167+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T09:35:17.192+0800] {logging_mixin.py:188} INFO - [2024-06-05T09:35:17.192+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T09:35:17.261+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.383 seconds
+[2024-06-05T11:20:26.342+0800] {processor.py:161} INFO - Started process (PID=28089) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:26.343+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T11:20:26.344+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:26.344+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:26.621+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:26.640+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:26.640+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T11:20:26.655+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:26.655+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T11:20:26.710+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.371 seconds
+[2024-06-05T11:20:57.496+0800] {processor.py:161} INFO - Started process (PID=28256) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:57.497+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T11:20:57.498+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:57.498+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:57.755+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:20:57.773+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:57.773+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T11:20:57.789+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:20:57.789+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T11:20:57.849+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.356 seconds
+[2024-06-05T11:21:27.956+0800] {processor.py:161} INFO - Started process (PID=28413) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:21:27.956+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T11:21:27.958+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:21:27.958+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:21:28.234+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T11:21:28.254+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:21:28.254+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T11:21:28.272+0800] {logging_mixin.py:188} INFO - [2024-06-05T11:21:28.272+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T11:21:28.333+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.380 seconds
+[2024-06-05T22:23:47.319+0800] {processor.py:161} INFO - Started process (PID=18469) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:23:47.320+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T22:23:47.321+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:23:47.321+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:23:47.682+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:23:47.700+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:23:47.699+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T22:23:47.713+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:23:47.713+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T22:23:47.741+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.424 seconds
+[2024-06-05T22:27:36.805+0800] {processor.py:161} INFO - Started process (PID=19471) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:27:36.806+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T22:27:36.807+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:27:36.806+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:27:37.026+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:27:37.043+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:27:37.043+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T22:27:37.056+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:27:37.056+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T22:27:37.084+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.282 seconds
+[2024-06-05T22:39:42.261+0800] {processor.py:161} INFO - Started process (PID=22607) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:39:42.261+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T22:39:42.262+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:39:42.262+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:39:42.487+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T22:39:42.515+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:39:42.515+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T22:39:42.532+0800] {logging_mixin.py:188} INFO - [2024-06-05T22:39:42.531+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T22:39:42.572+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.315 seconds
+[2024-06-05T23:25:36.617+0800] {processor.py:161} INFO - Started process (PID=36356) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:25:36.618+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:25:36.619+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:25:36.619+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:25:36.818+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:25:36.837+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:25:36.837+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:25:36.851+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:25:36.851+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:25:36.915+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.300 seconds
+[2024-06-05T23:33:24.323+0800] {processor.py:161} INFO - Started process (PID=38314) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:24.324+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:33:24.324+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:24.324+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:24.541+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:24.559+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:24.559+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:33:24.642+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:24.641+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:33:24.677+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.357 seconds
+[2024-06-05T23:33:55.546+0800] {processor.py:161} INFO - Started process (PID=38454) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:55.547+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:33:55.547+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:55.547+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:55.761+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:33:55.846+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:55.845+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:33:55.858+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:33:55.858+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:33:55.891+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.348 seconds
+[2024-06-05T23:34:26.989+0800] {processor.py:161} INFO - Started process (PID=38595) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:26.989+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:34:26.990+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:26.990+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:27.198+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:27.274+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:27.274+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:34:27.285+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:27.285+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:34:27.314+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.328 seconds
+[2024-06-05T23:34:57.401+0800] {processor.py:161} INFO - Started process (PID=38733) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:57.401+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:34:57.402+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:57.402+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:57.669+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:34:57.683+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:57.683+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:34:57.693+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:34:57.693+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:34:57.720+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.322 seconds
+[2024-06-05T23:35:28.831+0800] {processor.py:161} INFO - Started process (PID=38877) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:28.831+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:35:28.832+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:28.832+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:29.094+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:29.108+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:29.107+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:35:29.118+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:29.118+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:35:29.148+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.320 seconds
+[2024-06-05T23:35:59.287+0800] {processor.py:161} INFO - Started process (PID=39014) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:59.288+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:35:59.288+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:59.288+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:59.566+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:35:59.579+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:59.579+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:35:59.591+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:35:59.591+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:35:59.627+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.343 seconds
+[2024-06-05T23:36:29.745+0800] {processor.py:161} INFO - Started process (PID=39152) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:36:29.746+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:36:29.746+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:36:29.746+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:36:29.971+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:36:29.986+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:36:29.986+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:36:30.058+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:36:30.058+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:36:30.087+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.345 seconds
+[2024-06-05T23:37:01.171+0800] {processor.py:161} INFO - Started process (PID=39293) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:01.172+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:37:01.173+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:01.172+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:01.373+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:01.387+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:01.387+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:37:01.461+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:01.460+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:37:01.489+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.321 seconds
+[2024-06-05T23:37:32.435+0800] {processor.py:161} INFO - Started process (PID=39434) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:32.436+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:37:32.437+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:32.436+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:32.643+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:37:32.660+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:32.660+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:37:32.732+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:37:32.732+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:37:32.760+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.327 seconds
+[2024-06-05T23:38:03.246+0800] {processor.py:161} INFO - Started process (PID=39572) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:03.246+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:38:03.247+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:03.247+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:03.470+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:03.549+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:03.549+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:38:03.561+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:03.561+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:38:03.590+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.347 seconds
+[2024-06-05T23:38:34.072+0800] {processor.py:161} INFO - Started process (PID=39711) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:34.072+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:38:34.073+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:34.073+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:34.286+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:38:34.360+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:34.360+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:38:34.371+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:38:34.371+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:38:34.406+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.338 seconds
+[2024-06-05T23:39:04.899+0800] {processor.py:161} INFO - Started process (PID=39850) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:04.900+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:39:04.900+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:04.900+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:05.154+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:05.168+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:05.167+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:39:05.178+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:05.178+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:39:05.208+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.312 seconds
+[2024-06-05T23:39:35.668+0800] {processor.py:161} INFO - Started process (PID=39989) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:35.669+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:39:35.670+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:35.670+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:35.965+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:39:35.980+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:35.980+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:39:35.991+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:39:35.991+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:39:36.036+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.370 seconds
+[2024-06-05T23:40:06.284+0800] {processor.py:161} INFO - Started process (PID=40128) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:06.285+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:40:06.285+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:06.285+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:06.568+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:06.581+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:06.580+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:40:06.591+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:06.591+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:40:06.618+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.337 seconds
+[2024-06-05T23:40:36.853+0800] {processor.py:161} INFO - Started process (PID=40266) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:36.853+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:40:36.854+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:36.853+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:37.042+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:40:37.058+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:37.058+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:40:37.130+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:40:37.130+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:40:37.158+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.309 seconds
+[2024-06-05T23:41:07.427+0800] {processor.py:161} INFO - Started process (PID=40404) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:07.428+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:41:07.428+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:07.428+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:07.642+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:07.658+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:07.657+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:41:07.731+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:07.731+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:41:07.760+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.337 seconds
+[2024-06-05T23:41:37.966+0800] {processor.py:161} INFO - Started process (PID=40541) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:37.966+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:41:37.967+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:37.967+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:38.198+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:41:38.213+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:38.212+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:41:38.283+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:41:38.282+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:41:38.312+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.349 seconds
+[2024-06-05T23:42:08.539+0800] {processor.py:161} INFO - Started process (PID=40679) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:08.539+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:42:08.540+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:08.540+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:08.742+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:08.815+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:08.815+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:42:08.826+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:08.826+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:42:08.861+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.326 seconds
+[2024-06-05T23:42:39.141+0800] {processor.py:161} INFO - Started process (PID=40817) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:39.142+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:42:39.143+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:39.142+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:39.353+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:42:39.434+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:39.434+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:42:39.445+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:42:39.444+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:42:39.474+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.336 seconds
+[2024-06-05T23:43:09.723+0800] {processor.py:161} INFO - Started process (PID=40955) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:09.724+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:43:09.724+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:09.724+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:09.992+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:10.006+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:10.006+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:43:10.016+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:10.016+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:43:10.046+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.326 seconds
+[2024-06-05T23:43:40.311+0800] {processor.py:161} INFO - Started process (PID=41100) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:40.312+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:43:40.312+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:40.312+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:40.592+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:43:40.608+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:40.608+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:43:40.620+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:43:40.620+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:43:40.669+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.362 seconds
+[2024-06-05T23:47:37.656+0800] {processor.py:161} INFO - Started process (PID=42135) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:47:37.657+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:47:37.657+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:47:37.657+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:47:37.916+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:47:37.930+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:47:37.930+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:47:37.940+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:47:37.940+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:47:37.970+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.317 seconds
+[2024-06-05T23:48:09.064+0800] {processor.py:161} INFO - Started process (PID=42278) to work on /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:48:09.064+0800] {processor.py:830} INFO - Processing file /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py for tasks to queue
+[2024-06-05T23:48:09.065+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:48:09.065+0800] {dagbag.py:545} INFO - Filling up the DagBag from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:48:09.338+0800] {processor.py:840} INFO - DAG(s) 'centaline_scraping_dag' retrieved from /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py
+[2024-06-05T23:48:09.350+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:48:09.350+0800] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T23:48:09.362+0800] {logging_mixin.py:188} INFO - [2024-06-05T23:48:09.361+0800] {dag.py:3954} INFO - Setting next_dagrun for centaline_scraping_dag to 2024-06-05T00:00:00+00:00, run_after=2024-06-06T00:00:00+00:00
+[2024-06-05T23:48:09.392+0800] {processor.py:183} INFO - Processing /mnt/c/Users/user/Desktop/new_airflow/dags/cenraline_fc.py took 0.331 seconds
