@@ -130,5 +130,12 @@ fig_old.show()
 ![螢幕擷取畫面 2024-07-16 181534](https://github.com/user-attachments/assets/be15d941-a43b-4a73-b28b-0c727b137923)
 
 
+# WebsiteRelated
+https://www.house730.com/rent/g100/
+https://data.gov.hk/tc-data/dataset/hk-pland-pland1-land-utilization-in-hong-kong-statistics/resource/ef09b603-bcc5-4a23-8ae4-201cf5cb988e
+https://www.censtatd.gov.hk/tc/
+https://www.landsd.gov.hk/tc/index.html
+
+
 
 
