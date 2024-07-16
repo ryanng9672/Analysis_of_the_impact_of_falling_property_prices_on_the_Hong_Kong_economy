@@ -52,4 +52,19 @@ Main objective: To understand the impact of falling property prices on Hong Kong
 
 Main objective: To determine the actual rental transaction prices in the market.
 
+# Python
+-爬蟲
+```shell
+while True:
+    print(f"正在get第 {payload['pageIndex']} 頁的租盤data...")
+    #time.sleep(1) 
+    response = requests.post(url, headers=headers, json=payload)
+    data = response.json()
+    
+    if data['code'] != 0 or 'data' not in data['result'] or len(data['result']['data']) == 0:
+        print(f"第 {payload['pageIndex']} 頁nodata,end in the post") #https://www.house730.com/rent/t1g180/ 只可以去到180頁
+        break
+```
+
+
 
