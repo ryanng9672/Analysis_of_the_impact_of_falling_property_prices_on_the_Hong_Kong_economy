@@ -13,8 +13,11 @@
 **This project consists of two main components:**
 
 **Analysis of Hong Kong Property Price Trends**
+![螢幕擷取畫面 2024-07-16 174328](https://github.com/user-attachments/assets/cc3e8819-1c0d-4536-8560-5a29b9a3160d)
+
 
 File: fn_pj_house.ipynb
+
 Title: Analysis of the Impact of Falling Property Prices on the Hong Kong Economy
 
 **Automated Real Estate Data Collection and Price Prediction(Data Pipeline)**
