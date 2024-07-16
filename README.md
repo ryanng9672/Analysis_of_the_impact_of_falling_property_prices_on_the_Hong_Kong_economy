@@ -53,7 +53,7 @@ Main objective: To understand the impact of falling property prices on Hong Kong
 Main objective: To determine the actual rental transaction prices in the market.
 
 # Python
--爬蟲
+-爬蟲(web scraping) << in houesing730
 ```shell
 while True:
     print(f"正在get第 {payload['pageIndex']} 頁的租盤data...")
