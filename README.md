@@ -11,7 +11,9 @@
  **Overview**
 
 **This project consists of two main components:**
+
 **Analysis of Hong Kong Property Price Trends**
+
 File: fn_pj_house.ipynb
 Title: Analysis of the Impact of Falling Property Prices on the Hong Kong Economy
 
