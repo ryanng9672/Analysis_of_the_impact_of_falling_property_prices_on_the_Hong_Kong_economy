@@ -39,6 +39,10 @@ The Airflow-related content is stored in a separate Airflow folder.
 
 [PPT Link](https://github.com/ryanng9672/Analysis_of_the_impact_of_falling_property_prices_on_the_Hong_Kong_economy/blob/master/up_to_git_pj/Final%20Project_ppt.pptx)
 
+[Word Link](https://github.com/ryanng9672/Analysis_of_the_impact_of_falling_property_prices_on_the_Hong_Kong_economy/blob/master/up_to_git_pj/Final%20Project_word.docx)
+
+[data set link](https://github.com/ryanng9672/Analysis_of_the_impact_of_falling_property_prices_on_the_Hong_Kong_economy/blob/master/up_to_git_pj/Final_Project_data.zip)
+
 Main objective: To understand the impact of falling property prices on Hong Kong's economy.
 
 **House730 Rental Market Analysis**
