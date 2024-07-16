@@ -65,6 +65,9 @@ while True:
         print(f"第 {payload['pageIndex']} 頁nodata,end in the post") #https://www.house730.com/rent/t1g180/ 只可以去到180頁
         break
 ```
+![螢幕擷取畫面 2024-07-16 181029](https://github.com/user-attachments/assets/138e1940-bdc5-46d4-a53d-f11a3b5641a1)
+
+
 
 -視覺化(data-visualization)<<< in Analysis of the Impact of Falling Property Prices on the Hong Kong Economy
 
