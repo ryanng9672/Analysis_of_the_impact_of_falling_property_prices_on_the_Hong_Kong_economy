@@ -36,7 +36,9 @@ The Airflow-related content is stored in a separate Airflow folder.
 **Impact of Hong Kong Property Price Decline**
 
 **The analysis results and detailed information are stored in PowerPoint and Word documents.**
-[ppt link]([(https://github.com/ryanng9672/Analysis_of_the_impact_of_falling_property_prices_on_the_Hong_Kong_economy/blob/master/up_to_git_pj/Final%20Project_ppt.pptx)])
+
+[PPT Link](https://github.com/ryanng9672/Analysis_of_the_impact_of_falling_property_prices_on_the_Hong_Kong_economy/blob/master/up_to_git_pj/Final%20Project_ppt.pptx)
+
 Main objective: To understand the impact of falling property prices on Hong Kong's economy.
 
 **House730 Rental Market Analysis**
