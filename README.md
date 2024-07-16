@@ -66,5 +66,61 @@ while True:
         break
 ```
 
+-視覺化(data-visualization)<<< in Analysis of the Impact of Falling Property Prices on the Hong Kong Economy
+
+![螢幕擷取畫面 2024-07-14 233400](https://github.com/user-attachments/assets/b9273886-77a0-4cef-85d5-f7b596d58157)
+
+```shell
+import plotly.graph_objects as go
+from datetime import datetime
+
+fig_old = px.line(centaline_data_housing_old, x='Date', y='CCL_housing')
+
+events = [
+    {'year': 1997, 'event': '1997年亞洲金融危機'},
+    {'year': 2003, 'event': '2003年SARS疫情'},
+    {'year': 2008, 'event': '2008年全球金融危機'},
+    {'year': 2009, 'event': '2009-2013年量化寬鬆和低利率環境', 'end_year': 2013},
+    {'year': 2014, 'event': '2014-2015年"佔中運動"', 'end_year': 2015},
+    {'year': 2016, 'event': '2016-2018年房地產市場調控政策(「房住不炒」)', 'end_year': 2018},
+    {'year': 2019, 'event': '2019年社會事件(民運事件)'},
+    {'year': 2020, 'event': '2020年至新冠疫情+國安法'}
+]
+
+centaline_data_housing_old['Date'] = pd.to_datetime(centaline_data_housing_old['Date'])
+
+for event in events:
+    event_date = datetime(event['year'], 1, 1)
+    fig_old.add_shape(type="line",
+                  x0=event_date, y0=0, x1=event_date, y1=1,
+                  xref="x", yref="paper",
+                  line=dict(color="gray", width=1, dash="dash"))
+    
+    if 'end_year' in event:
+        end_event_date = datetime(event['end_year'], 12, 31)
+        fig_old.add_shape(type="line",
+                      x0=end_event_date, y0=0, x1=end_event_date, y1=1,
+                      xref="x", yref="paper",
+                      line=dict(color="gray", width=1, dash="dash"))
+    
+    available_dates = centaline_data_housing_old[centaline_data_housing_old['Date'] >= event_date]['Date']
+    if len(available_dates) > 0:
+        nearest_date = min(available_dates)
+        event_ccl = centaline_data_housing_old[centaline_data_housing_old['Date'] == nearest_date]['CCL_housing'].values[0]
+        fig_old.add_trace(go.Scatter(x=[event_date], y=[event_ccl], mode='markers', 
+                                     marker=dict(size=15, color='red'),
+                                     hovertext=event['event'], showlegend=False))
+
+fig_old.update_xaxes(range=['1997-01-01', centaline_data_housing_old['Date'].max()])
+fig_old.update_xaxes(
+    dtick="M12",  
+    tickformat="%Y-%m"  
+)
+
+fig_old.update_layout(showlegend=False)
+
+fig_old.show()
+```
+
 
 
