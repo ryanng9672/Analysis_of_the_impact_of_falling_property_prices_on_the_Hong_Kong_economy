@@ -47,6 +47,9 @@ Main objective: To understand the impact of falling property prices on Hong Kong
 
 **House730 Rental Market Analysis**
 
+![螢幕擷取畫面 2024-07-16 173642](https://github.com/user-attachments/assets/6747696c-cdbf-4d72-bc40-44fede5b5a28)
+
+
 Main objective: To determine the actual rental transaction prices in the market.
 
 
