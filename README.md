@@ -125,5 +125,10 @@ fig_old.update_layout(showlegend=False)
 fig_old.show()
 ```
 
+-PGSQL(keep_data)
+
+![螢幕擷取畫面 2024-07-16 181534](https://github.com/user-attachments/assets/be15d941-a43b-4a73-b28b-0c727b137923)
+
+
 
 
